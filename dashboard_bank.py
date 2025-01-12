@@ -5,7 +5,6 @@ import altair as alt
 import datetime
 import streamlit_extras
 import re
-import xlsxwriter
 from streamlit_extras.stoggle import stoggle
 from streamlit_extras.mandatory_date_range import date_range_picker
 from streamlit_extras.colored_header import colored_header
