@@ -27,7 +27,7 @@ google_sheet_url = "https://docs.google.com/spreadsheets/d/1-mHPo2LDptjhvlgXe_-r
 st.set_page_config(layout="wide", page_title="Daily dashboard", page_icon="https://companieslogo.com/img/orig/VPB.VN-b0a9916f.png?t=1722928514", menu_items={
         'Get Help': 'mailto:anhhungtrinh95@gmail.com',
         'Report a bug': "https://docs.google.com/spreadsheets/d/1-mHPo2LDptjhvlgXe_-r-yucxQRink_Wfy1HhH2oR4s/edit?gid=741377359#gid=741377359",
-        'About': "# Seller Capabilities. This is an :red[internal] used only app!"})
+        'About': "# This dashboard is an :red[internal] used only!"})
 col1, col2 = st.columns([6, 1])
 col1.title('Banking customer Dashboard')
 
