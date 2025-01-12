@@ -3,14 +3,19 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import datetime
+import streamlit_extras
 import re
+from streamlit_extras.stoggle import stoggle
+from streamlit_extras.mandatory_date_range import date_range_picker
+from streamlit_extras.colored_header import colored_header
+from streamlit_extras.chart_container import chart_container
 from streamlit_echarts import st_echarts
+from streamlit_extras.switch_page_button import switch_page
 from io import BytesIO
 #from st_pages import Page, add_page_title, show_pages
 import gspread
 from google.oauth2.service_account import Credentials
 from shillelagh.backends.apsw.db import connect
-
 
 def fetch_google_sheet(sheet_url):
     csv_url = sheet_url.replace('/edit?gid=', '/export?format=csv&gid=')
