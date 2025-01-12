@@ -2,7 +2,8 @@
 This GitHub is create for the final project of University of Strathclyde 
 
 Student name: Anh Hung Trinh
-Project Name: Streamlit dashboard for banking sector
+Email: anh.trinh.2023@uni.strath.ac.uk
+Project Name: Web-based dashboard system for Vietnam Banking Industry 
 
 Bank google sheet data: https://docs.google.com/spreadsheets/d/1-mHPo2LDptjhvlgXe_-r-yucxQRink_Wfy1HhH2oR4s/edit?gid=1684401121#gid=1684401121
 
